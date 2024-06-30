@@ -75,7 +75,7 @@
   .card {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto, auto, auto, auto, auto;
+    grid-template-rows: auto auto auto auto auto;
     grid-gap: 10px;
     background-color: #fff;
     border: 1px solid #ddd;
@@ -93,7 +93,7 @@
     border-top-right-radius: 10px;
     background-color: #2E4053;
     text-align: center;
-    font-size: 26;
+    font-size: 26px;
     height: fit-content;
     font-size: 24px;
     color: #fff;
