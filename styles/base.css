@@ -22,6 +22,9 @@
   /* Header Styles */
   
   header {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
     background-color: #2E4053;
     padding: 0;
     text-align: center;
