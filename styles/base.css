@@ -17,6 +17,8 @@
     text-decoration: none;
     color: #184164;
   }
+
+
   
 
   /* Header Styles */
@@ -177,6 +179,12 @@
     grid-column: 1 / 5;
     grid-row: 2/5;
     text-align: center;
+  }
+
+  ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
   }
   
   /* Footer Styles */
