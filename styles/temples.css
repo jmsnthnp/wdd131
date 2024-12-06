@@ -8,10 +8,10 @@
     --accent3: #FDF7F4;
 
     /* Fonts */
-    --poppins-regular: "Poppins", sans-serif;
-    --poppins-regular-weight: 400;
-    --poppins-thin: "Poppins", sans-serif;
-    --poppins-thin-weight: 100;
+    --roboto-regular: "Roboto", sans-serif;
+    --roboto-regular-weight: 400;
+    --roboto-thin: "Roboto", sans-serif;
+    --roboto-thin-weight: 100;
 
 
     --headline-color-on-white: var(--primary-color);
@@ -37,8 +37,8 @@
 }
 
 body {
-    font-family: var(--poppins-regular);
-    font-weight: var(--poppins-regular-weight);
+    font-family: var(--roboto-regular);
+    font-weight: var(--roboto-regular-weight);
 }
 
 
@@ -55,7 +55,9 @@ h1 {
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+
+
 }
 
 p {
