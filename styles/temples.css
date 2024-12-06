@@ -148,6 +148,7 @@ main {
     grid-gap: 25px;
     place-items: center;
     margin: 5px 20px;
+    font-size: 18px;
 }
 
 figure {
