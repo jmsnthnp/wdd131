@@ -9,13 +9,14 @@
     --accent3: #FDF7F4;
 
 
+
     /* Fonts */
     --roboto-regular: "Roboto", sans-serif;
     --roboto-regular-weight: 400;
     --roboto-thin: "Roboto", sans-serif;
     --roboto-thin-weight: 100;
 
-    /* these colors below should be chosen from among your palette colors above */
+    
     --headline-color-on-white: var(--primary-color);
     /* headlines on a white background */
     --headline-color-on-color: var(--accent3);
@@ -90,7 +91,7 @@ header {
 
 .hero-section {
     grid-row: 1;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     padding-top: 20px;
 }
 

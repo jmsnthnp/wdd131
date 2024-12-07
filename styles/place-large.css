@@ -25,9 +25,9 @@
 
     .box-title {
         padding: 10px 20px;
-        background-color: var(--gunmetal);
+        background-color: var(--secondary-color);
         text-align: left;
-        color: var(--antiflash-white);
+        color: var(--accent3);
         font-size: 1.5rem;
         margin-top: 10px;
         margin-right: 50px;
