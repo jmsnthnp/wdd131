@@ -141,7 +141,6 @@ textarea {
 .rating-box label {
     color: var(--accent2-color);
     font-size: 2rem;
-    border-radius: 1px solid var(--secondary-color);
 }
 
 .rating-box .classification {
