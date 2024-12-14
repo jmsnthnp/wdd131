@@ -1,0 +1,47 @@
+:root {
+    /* CSS HEX */
+    --primary-color: #385f8a;
+    --secondary-color: #2E4053;
+    --accent1-color: #415A77;
+    --accent2-color: #778DA9;
+    --accent3: #FDF7F4;
+
+    --roboto-regular-font-family: "Roboto", sans-serif;
+    --roboto-regular-font-weight: 400;
+    --roboto-regular-font-style: normal;
+
+
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    place-items: center;
+}
+
+
+
+
+
+
+.typographyEx {
+    font-family: var(--roboto-regular-font-family);
+    color: var(--secondary-color);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.headerEx,
+.footerEx {
+    width: 200px;
+    height: 30px;
+    background-color: var(--secondary-color);
+    color: var(--accent3);
+    text-align: center;
+}
+
+img {
+    width: 25%;
+}
