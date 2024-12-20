@@ -61,20 +61,18 @@ document.addEventListener('DOMContentLoaded', function () {
     const container = document.querySelector('.container-project-box');
 
     projects.forEach(project => {
-        const projectCard = document.createElement('div');
-        projectCard.className = 'project-card';
-    
-        // Create the project title (not a link)
-        const projectTitle = document.createElement('h2');
-        projectTitle.textContent = project.projectName;
-        projectCard.appendChild(projectTitle); // Append title to the project card
-    
-        // Create an anchor element for the image
+        // Create an anchor element for the entire project card
         const projectLink = document.createElement('a');
         projectLink.href = project.url; // Set the href to the project's URL
-        projectLink.style.textDecoration = 'none'; // Optional: Remove underline from link
+        projectLink.style.textDecoration = 'none'; // Remove underline from link
+        projectLink.className = 'project-card'; // Add class for styling
     
-        // Create the project image
+        // Create the project title (inside the link)
+        const projectTitle = document.createElement('h2');
+        projectTitle.textContent = project.projectName;
+        projectLink.appendChild(projectTitle); // Append title to the link
+    
+        // Create the project image (inside the link)
         const projectImage = document.createElement('img');
         projectImage.src = project.imageUrl;
         projectImage.width = project.width;
@@ -82,19 +80,16 @@ document.addEventListener('DOMContentLoaded', function () {
         projectImage.alt = `${project.projectName} Image`;
         projectLink.appendChild(projectImage); // Append image to the link
     
-        // Append the link (image) to the project card
-        projectCard.appendChild(projectLink); 
-    
-        // Create the project info div (not a link)
+        // Create the project info div (inside the link)
         const projectInfo = document.createElement('div');
         projectInfo.className = 'project-info';
     
-        // Create the project description
+        // Create the project description (inside the link)
         const projectDescription = document.createElement('p');
         projectDescription.textContent = project.projectDescription;
         projectInfo.appendChild(projectDescription); // Append description to project info
     
-        // Create logos div
+        // Create logos div (inside the link)
         const logosDiv = document.createElement('div');
         logosDiv.className = 'logos';
     
@@ -117,7 +112,9 @@ document.addEventListener('DOMContentLoaded', function () {
         logosDiv.appendChild(jsLogo);
     
         projectInfo.appendChild(logosDiv); // Append logos to project info
-        projectCard.appendChild(projectInfo); // Append project info to the project card
-        container.appendChild(projectCard); // Append the project card to the container
+        projectLink.appendChild(projectInfo); // Append project info to the link
+    
+        // Append the link (entire card) to the container
+        container.appendChild(projectLink); 
     });
 });
