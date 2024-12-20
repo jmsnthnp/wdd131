@@ -301,7 +301,7 @@
 }
 
 .contact:hover {
-    background-color: var(--b-strong-color);
+    background-color: #778DA9; 
     transform: translateY(-2px);
     text-decoration: underline;
 }
