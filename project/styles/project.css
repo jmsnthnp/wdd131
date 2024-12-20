@@ -7,7 +7,7 @@
 }
 
 .project-card {
-    display: block; /* Make the anchor behave like a block element */
+    display: block; 
     max-width: 500px;
     height: 590px;
     background-color: var(--accent3-color-Platinum);
@@ -16,14 +16,14 @@
     border-radius: 5px;
     box-shadow: 0 2px 5px #0d1b2ac2;
     margin-bottom: 30px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth effect */
-    text-decoration: none; /* Remove underline from link */
-    color: inherit; /* Inherit color from parent element */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    text-decoration: none; 
+    color: inherit; 
 }
 
 .project-card:hover {
-    transform: scale(1.02); /* Scale up the card slightly on hover */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+    transform: scale(1.02); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
 }
 
 .project-card img {
@@ -31,12 +31,12 @@
     border: 1px solid #778DA9;
     border-radius: 5px;
     height: auto;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
 .project-card img:hover {
-    transform: scale(1.03); /* Scale up the image slightly */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+    transform: scale(1.03); 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
 }
 
 .project-info {
