@@ -42,7 +42,7 @@
     display: grid;
     grid-template-columns: auto auto auto auto;
     align-items: center;
-    background-color: #a1aebe;
+    background-color: #8195ac4f;
   }
   
   nav ul {
@@ -56,14 +56,16 @@
   }
   
   nav a {
-    color: #2E4053;
+    color: #fff;
     font-size: 1rem;
-    font-weight: bold;
-    transition: color 0.2s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid;
   }
   
   nav a:hover {
-    background-color: #c5d2e2;
+    background-color: #778DA9;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.01)
   }
   
   /* Main Styles */
