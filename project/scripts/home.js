@@ -35,7 +35,7 @@ I am currently pursuing a Bachelor of Science in Software Development at Brigham
 Throughout my studies, I have developed proficiency in key programming languages and tools such as JavaScript, C#, GitHub, and MySQL. These skills are vital for both front-end and back-end development, and they enable me to contribute effectively to software and web development projects.
             </p>
             <p>    
-In addition to my degree, I have earned certificates in computer programming and computer support. These certifications further enhance my technical expertise, making me well-equipped to tackle a variety of challenges in software development and IT support.
+In addition to my degree, I have earned certificates in computer programming and computer support. These certifications further enhance my technical expertise, making me well-equipped to tackle a variety of challenges in software, and web development.
             </p>
         `;
         education.innerHTML = educationContent;
