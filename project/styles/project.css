@@ -14,13 +14,26 @@
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px #0d1b2ac2;
-    margin-bottom: 30px;
+    margin-bottom: none;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
 }
 
 .project-card img {
     width: 100%;
+    border: 1px solid #778DA9;
     border-radius: 5px;
     height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth effect */
+}
+
+.project-card img:hover {
+    transform: scale(1.03); /* Scale up the image slightly */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
 }
 
 .project-info {
