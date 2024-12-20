@@ -3,7 +3,7 @@
     grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
     grid-gap: 20px;
     place-items: center;
-    margin: 5px 20px;
+    margin: 0 20px;
 }
 
 .project-card {
@@ -15,7 +15,8 @@
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px #0d1b2ac2;
-    margin-bottom: 30px;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
     transition: transform 0.3s ease, box-shadow 0.3s ease; 
     text-decoration: none; 
     color: inherit; 
