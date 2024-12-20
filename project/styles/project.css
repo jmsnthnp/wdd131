@@ -7,8 +7,8 @@
 }
 
 .project-card {
-    max-width: 300px;
-    height: 450px;
+    max-width: 500px;
+    height: 590px;
     background-color: var(--accent3-color-Platinum);
     border: 1px solid #778DA9;
     padding: 20px;
@@ -33,7 +33,7 @@
 }
 
 .project-info p {
-    font-size: 12px;
+    font-size: 17px;
     color: var(--accent1-color-YInMn-Blue);
     padding: 5px;
 }
