@@ -17,12 +17,17 @@
     margin-bottom: 20px;
     overflow: hidden;
     border-radius: 10px;
+    position: relative;
 }
 
 .image-container img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+    width: 100%; /* Make the image take the full width of the container */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute; /* Position the image absolutely within the container */
+    top: 80%; /* Center the image vertically */
+    left: 50%; /* Center the image horizontally */
+    transform: translate(-50%, -50%); /* Adjust the image position */
+    object-fit: cover; /* Cover the container while maintaining aspect ratio */
 }
 
 .form-container {
