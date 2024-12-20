@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     const projects = [
         {
-            projectName: "WebPage Temple",
+            projectName: "Temple Web Page",
             imageUrl: "../project/images/temple-project.png",
             width: "893px",
             height: "784px",
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
             projectDescription: "This webpage features an interactive section to filter and display information about various LDS temples around the world, with a responsive hamburger menu for easy navigation. Users can view details such as temple names, locations, dedication dates, and areas, complemented by images."
         },
         {
-            projectName: "WebPage Places",
+            projectName: "Places Web Page",
             imageUrl: "../project/images/place-project.png",
             width: "765px",
             height: "601px",
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
             projectDescription: "This section dynamically calculates and displays the wind chill factor based on static temperature and wind speed values. It enhances the weather information table, providing accurate and relevant details for the user's convenience."
         },
         {
-            projectName: "WebPage Form",
+            projectName: "Form Web Page",
             imageUrl: "../project/images/form-project.png",
             width: "765px",
             height: "601px",
@@ -38,6 +38,19 @@ document.addEventListener('DOMContentLoaded', function () {
             jsLogo: "../project/images/logos/javaScript-logo-s.png",
             altJs: "JavaScript Logo",
             projectDescription: "This webpage includes a dedicated review form that allows users to share their opinions and feedback on the products listed. Additionally, the page tracks and compiles all submitted reviews, offering an organized overview of customer feedback."
+        },
+        {
+            projectName: "Portfolio Page",
+            imageUrl: "../project/images/final-project.png",
+            width: "765px",
+            height: "601px",
+            htmlLogo: "../project/images/logos/html-logo-s.png",
+            altHtml: "HTML5 Logo",
+            cssLogo: "../project/images/logos/css-logo-s.png",
+            altCss: "CSS Logo",
+            jsLogo: "../project/images/logos/javaScript-logo-s.png",
+            altJs: "JavaScript Logo",
+            projectDescription: "This portfolio webpage includes a main page, a project page displaying all projects, and a 'Contact Us' page with a form for user inquiries. It offers various presets to enhance functionality and user experience."
         }
     ];
 
