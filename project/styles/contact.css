@@ -21,13 +21,13 @@
 }
 
 .image-container img {
-    width: 100%; /* Make the image take the full width of the container */
-    height: auto; /* Maintain aspect ratio */
-    position: absolute; /* Position the image absolutely within the container */
-    top: 80%; /* Center the image vertically */
-    left: 50%; /* Center the image horizontally */
-    transform: translate(-50%, -50%); /* Adjust the image position */
-    object-fit: cover; /* Cover the container while maintaining aspect ratio */
+    width: 100%; 
+    height: auto; 
+    position: absolute; 
+    top: 80%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    object-fit: cover; 
 }
 
 .form-container {
